@@ -22,7 +22,8 @@ def user_details():
             "error": "Missing user ID"
         }), 400
 
-    url = f"https://telelog.org/api/v1/users/{user_id}/stats_min"
+    url = f"http
+://telelog.org/api/v1/users/{user_id}/stats_min"
 
     headers = {
         "accept": "application/json",
